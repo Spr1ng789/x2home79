@@ -1,0 +1,30 @@
+﻿{
+  "name": "x2home79",
+  "description": "x2home79",
+  "keywords": [
+    "VMess VLESS"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "协议VMess或VLESS，请填小写的vmess或vless",
+      "value": "vmess",
+      "required": true
+    },
+    "UUID": {
+      "description": "用户的主ID",
+      "value": "",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocket路径",
+      "value": "/ray",
+      "required": true
+    }
+  },
+  "website": "https://github.com/Spr1ng789/x2home79",
+  "repository": "https://github.com/Spr1ng789/x2home79",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
